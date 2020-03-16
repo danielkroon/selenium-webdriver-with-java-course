@@ -46,7 +46,25 @@
       <recent name="$PROJECT_DIR$/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.KeysTests.testBackspace">
+  <component name="RunManager" selected="TestNG.&lt;default&gt;">
+    <configuration name="JavaScriptTests.testScrollToFifthParagraph" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="tau-selenium-webdriver-tutorial-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javascript.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="javascript" />
+      <option name="MAIN_CLASS_NAME" value="javascript.JavaScriptTests" />
+      <option name="METHOD_NAME" value="testScrollToFifthParagraph" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KeysTests.testBackspace" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="tau-selenium-webdriver-tutorial-java" />
       <extension name="coverage">
@@ -111,9 +129,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.KeysTests.testBackspace" />
-        <item itemvalue="TestNG.NavigationTests" />
         <item itemvalue="TestNG.&lt;default&gt;" />
+        <item itemvalue="TestNG.NavigationTests" />
+        <item itemvalue="TestNG.KeysTests.testBackspace" />
+        <item itemvalue="TestNG.JavaScriptTests.testScrollToFifthParagraph" />
         <item itemvalue="TestNG.LoginTests" />
       </list>
     </recent_temporary>
@@ -141,22 +160,26 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="560" y="222" key="#Project_Structure/285.1103.1440.812/0.23.1920.1057@0.23.1920.1057" timestamp="1584123135212" />
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1584362550848">
+    <state x="773" y="268" key="#com.intellij.ide.util.MemberChooser" timestamp="1584366795428">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom/285.1103.1440.812/0.23.1920.1057@0.23.1920.1057" timestamp="1584362550848" />
-    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1584362550847">
+    <state x="773" y="268" key="#com.intellij.ide.util.MemberChooser/285.1103.1440.812/0.23.1920.1057@0.23.1920.1057" timestamp="1584366795428" />
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1584369562471">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.center/285.1103.1440.812/0.23.1920.1057@0.23.1920.1057" timestamp="1584362550847" />
-    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1584362550846">
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom/285.1103.1440.812/0.23.1920.1057@0.23.1920.1057" timestamp="1584369562471" />
+    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1584369562469">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.left/285.1103.1440.812/0.23.1920.1057@0.23.1920.1057" timestamp="1584362550846" />
-    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1584362550847">
+    <state width="1878" height="290" key="GridCell.Tab.0.center/285.1103.1440.812/0.23.1920.1057@0.23.1920.1057" timestamp="1584369562469" />
+    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1584369562468">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.right/285.1103.1440.812/0.23.1920.1057@0.23.1920.1057" timestamp="1584362550847" />
+    <state width="1878" height="290" key="GridCell.Tab.0.left/285.1103.1440.812/0.23.1920.1057@0.23.1920.1057" timestamp="1584369562468" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1584369562470">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.right/285.1103.1440.812/0.23.1920.1057@0.23.1920.1057" timestamp="1584369562470" />
     <state width="1878" height="357" key="GridCell.Tab.1.bottom" timestamp="1584362397980">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>

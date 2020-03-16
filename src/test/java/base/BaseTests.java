@@ -3,21 +3,22 @@ package base;
 import com.google.common.io.Files;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import pages.HomePage;
+import utils.EventReporter;
 import utils.WindowManager;
 
 import java.io.File;
 import java.io.IOException;
 
 public class BaseTests {
-	private WebDriver driver;
+	private EventFiringWebDriver driver;
 	/*
 	 * Protected, so that test classes that inherit from this will have access to this homePage.
 	 */
@@ -31,14 +32,10 @@ public class BaseTests {
 	@BeforeClass 
 	public void setUp() {
 		System.setProperty("webdriver.chrome.driver", "resources/chromedriver");
-		driver = new ChromeDriver();
-		// driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		driver.get("https://the-internet.herokuapp.com/");
+		driver = new EventFiringWebDriver(new ChromeDriver()); // it is a ChromeDriver but wrap it in a EventFiringWebDriver so the EventFiringWebDriver can listen for events
+		driver.register(new EventReporter()); // register a class that implements the webDriver event listener interface
 		
-		/*
-		 * Once the application is launched we know we are on the home page so we created a new instance.
-		 */
-		homePage = new HomePage(driver);
+		goHome();
 	}
 	
 	// Make sure the tests starts at the homepage after each method
