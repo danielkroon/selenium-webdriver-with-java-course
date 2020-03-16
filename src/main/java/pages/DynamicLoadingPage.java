@@ -1,6 +1,7 @@
 package pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 
 public class DynamicLoadingPage {
@@ -30,8 +31,14 @@ public class DynamicLoadingPage {
 		driver.findElement(link_Example1).click();
 		return new DynamicLoadingExample1Page(driver);
 	}
+
 	public DynamicLoadingExample2Page clickExample2() {
 		driver.findElement(link_Example2).click();
+		return new DynamicLoadingExample2Page(driver);
+	}
+
+	public DynamicLoadingExample2Page rightClickExample2() {
+		driver.findElement(link_Example2).sendKeys(Keys.CONTROL, Keys.RETURN); // right click on the example 2 link and open new tab.
 		return new DynamicLoadingExample2Page(driver);
 	}
 }

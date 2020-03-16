@@ -48,7 +48,7 @@ public class BaseTests {
 		driver.quit();
 	}
 	
-	 public WindowManager getWindowManager() {
-	        return new WindowManager(driver);
-	    }
+	public WindowManager getWindowManager() {
+		return new WindowManager(driver);
+	}
 }

@@ -1,10 +1,9 @@
 package wait;
 
-import static org.testng.Assert.assertEquals;
-
+import base.BaseTests;
 import org.testng.annotations.Test;
 
-import base.BaseTests;
+import static org.testng.Assert.assertEquals;
 
 public class WaitTests extends BaseTests {
 

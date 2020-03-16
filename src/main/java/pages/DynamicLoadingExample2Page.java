@@ -31,4 +31,8 @@ public class DynamicLoadingExample2Page {
 	public String getLoadedText() {
 		return driver.findElement(loadedText).getText();
 	}
+
+	public boolean isStartButtonVisible() {
+		return driver.findElement(startButton).isDisplayed();
+	}
 }

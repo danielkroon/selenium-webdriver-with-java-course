@@ -1,12 +1,11 @@
 package login;
 
-import org.testng.annotations.Test;
-
-import static org.testng.Assert.*;
-
 import base.BaseTests;
+import org.testng.annotations.Test;
 import pages.LoginPage;
 import pages.SecureAreaPage;
+
+import static org.testng.Assert.assertTrue;
 
 /*
  * Extends BaseTests so it inherits from BaseTests
