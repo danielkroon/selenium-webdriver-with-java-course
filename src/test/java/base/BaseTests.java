@@ -4,6 +4,7 @@ import com.google.common.io.Files;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
@@ -11,6 +12,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import pages.HomePage;
+import utils.CookieManager;
 import utils.EventReporter;
 import utils.WindowManager;
 
@@ -32,10 +34,8 @@ public class BaseTests {
 	@BeforeClass 
 	public void setUp() {
 		System.setProperty("webdriver.chrome.driver", "resources/chromedriver");
-		driver = new EventFiringWebDriver(new ChromeDriver()); // it is a ChromeDriver but wrap it in a EventFiringWebDriver so the EventFiringWebDriver can listen for events
+		driver = new EventFiringWebDriver(new ChromeDriver(getChromeOptions())); // it is a ChromeDriver but wrap it in a EventFiringWebDriver so the EventFiringWebDriver can listen for events
 		driver.register(new EventReporter()); // register a class that implements the webDriver event listener interface
-		
-		goHome();
 	}
 	
 	// Make sure the tests starts at the homepage after each method
@@ -44,7 +44,7 @@ public class BaseTests {
         driver.get("https://the-internet.herokuapp.com/");
         homePage = new HomePage(driver);
     }
-	
+
 	// Annotation so this method will run after each of the test classes
 	@AfterClass 
 	public void tearDown() {
@@ -64,8 +64,18 @@ public class BaseTests {
 		}
 	}
 
-
 	public WindowManager getWindowManager() {
 		return new WindowManager(driver);
+	}
+
+	private ChromeOptions getChromeOptions() { // Private because we only need to use it inside this class.
+		ChromeOptions options = new ChromeOptions(); // Instantiate a instance of ChromeOptions class.
+		options.addArguments("disable-infobars"); // is removed for misuse
+//		options.setHeadless(true);
+		return options;
+	}
+
+	public CookieManager getCookieManager(){
+		return new CookieManager(driver);
 	}
 }

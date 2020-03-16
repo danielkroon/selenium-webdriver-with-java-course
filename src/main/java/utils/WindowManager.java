@@ -7,10 +7,16 @@ public class WindowManager {
 	private WebDriver driver;
 	private WebDriver.Navigation navigate;
 
+	/*
+	 * Create constructor to receive the WebDriver because this class also needs a WebDriver
+	 */
+
 	public WindowManager(WebDriver driver) {
 		this.driver = driver;
 		navigate = driver.navigate();
 	}
+
+	// End constructor
 
 	public void goBack() {
 		navigate.back();
