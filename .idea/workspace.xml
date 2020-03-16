@@ -46,7 +46,25 @@
       <recent name="$PROJECT_DIR$/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.NavigationTests">
+  <component name="RunManager" selected="TestNG.KeysTests.testBackspace">
+    <configuration name="KeysTests.testBackspace" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="tau-selenium-webdriver-tutorial-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="keys.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="keys" />
+      <option name="MAIN_CLASS_NAME" value="keys.KeysTests" />
+      <option name="METHOD_NAME" value="testBackspace" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="tau-selenium-webdriver-tutorial-java" />
       <extension name="coverage">
@@ -93,6 +111,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.KeysTests.testBackspace" />
         <item itemvalue="TestNG.NavigationTests" />
         <item itemvalue="TestNG.&lt;default&gt;" />
         <item itemvalue="TestNG.LoginTests" />
@@ -122,38 +141,38 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="560" y="222" key="#Project_Structure/285.1103.1440.812/0.23.1920.1057@0.23.1920.1057" timestamp="1584123135212" />
-    <state width="1878" height="357" key="GridCell.Tab.0.bottom" timestamp="1584359901527">
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1584362550848">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="357" key="GridCell.Tab.0.bottom/285.1103.1440.812/0.23.1920.1057@0.23.1920.1057" timestamp="1584359901527" />
-    <state width="1878" height="357" key="GridCell.Tab.0.center" timestamp="1584359901525">
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom/285.1103.1440.812/0.23.1920.1057@0.23.1920.1057" timestamp="1584362550848" />
+    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1584362550847">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="357" key="GridCell.Tab.0.center/285.1103.1440.812/0.23.1920.1057@0.23.1920.1057" timestamp="1584359901525" />
-    <state width="1878" height="357" key="GridCell.Tab.0.left" timestamp="1584359901524">
+    <state width="1878" height="290" key="GridCell.Tab.0.center/285.1103.1440.812/0.23.1920.1057@0.23.1920.1057" timestamp="1584362550847" />
+    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1584362550846">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="357" key="GridCell.Tab.0.left/285.1103.1440.812/0.23.1920.1057@0.23.1920.1057" timestamp="1584359901524" />
-    <state width="1878" height="357" key="GridCell.Tab.0.right" timestamp="1584359901526">
+    <state width="1878" height="290" key="GridCell.Tab.0.left/285.1103.1440.812/0.23.1920.1057@0.23.1920.1057" timestamp="1584362550846" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1584362550847">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="357" key="GridCell.Tab.0.right/285.1103.1440.812/0.23.1920.1057@0.23.1920.1057" timestamp="1584359901526" />
-    <state width="1878" height="357" key="GridCell.Tab.1.bottom" timestamp="1584359901529">
+    <state width="1878" height="290" key="GridCell.Tab.0.right/285.1103.1440.812/0.23.1920.1057@0.23.1920.1057" timestamp="1584362550847" />
+    <state width="1878" height="357" key="GridCell.Tab.1.bottom" timestamp="1584362397980">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="357" key="GridCell.Tab.1.bottom/285.1103.1440.812/0.23.1920.1057@0.23.1920.1057" timestamp="1584359901529" />
-    <state width="1878" height="357" key="GridCell.Tab.1.center" timestamp="1584359901528">
+    <state width="1878" height="357" key="GridCell.Tab.1.bottom/285.1103.1440.812/0.23.1920.1057@0.23.1920.1057" timestamp="1584362397980" />
+    <state width="1878" height="357" key="GridCell.Tab.1.center" timestamp="1584362397979">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="357" key="GridCell.Tab.1.center/285.1103.1440.812/0.23.1920.1057@0.23.1920.1057" timestamp="1584359901528" />
-    <state width="1878" height="357" key="GridCell.Tab.1.left" timestamp="1584359901527">
+    <state width="1878" height="357" key="GridCell.Tab.1.center/285.1103.1440.812/0.23.1920.1057@0.23.1920.1057" timestamp="1584362397979" />
+    <state width="1878" height="357" key="GridCell.Tab.1.left" timestamp="1584362397978">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="357" key="GridCell.Tab.1.left/285.1103.1440.812/0.23.1920.1057@0.23.1920.1057" timestamp="1584359901527" />
-    <state width="1878" height="357" key="GridCell.Tab.1.right" timestamp="1584359901529">
+    <state width="1878" height="357" key="GridCell.Tab.1.left/285.1103.1440.812/0.23.1920.1057@0.23.1920.1057" timestamp="1584362397978" />
+    <state width="1878" height="357" key="GridCell.Tab.1.right" timestamp="1584362397980">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="357" key="GridCell.Tab.1.right/285.1103.1440.812/0.23.1920.1057@0.23.1920.1057" timestamp="1584359901529" />
+    <state width="1878" height="357" key="GridCell.Tab.1.right/285.1103.1440.812/0.23.1920.1057@0.23.1920.1057" timestamp="1584362397980" />
     <state x="498" y="218" key="Maven.ArtifactSearchDialog" timestamp="1584123314850">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>

@@ -17,6 +17,9 @@ Thumbs.db
 .Spotlight-V100
 .Trashes
 
+# Screenshots of failed tests
+*/screenshots
+
 ######################
 ######   Java   ######
 ######################

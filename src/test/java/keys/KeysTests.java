@@ -1,11 +1,10 @@
 package keys;
 
-import static org.testng.Assert.assertEquals;
-
+import base.BaseTests;
 import org.openqa.selenium.Keys;
 import org.testng.annotations.Test;
 
-import base.BaseTests;
+import static org.testng.Assert.assertEquals;
 
 public class KeysTests extends BaseTests {
 
